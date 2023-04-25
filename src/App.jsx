@@ -1,55 +1,62 @@
 
 import { GlobeAmericasIcon, PhoneIcon, AtSymbolIcon, BuildingOfficeIcon, ArchiveBoxIcon, UserIcon } from '@heroicons/react/24/outline'
 import Progress from './Progress'
+import Yo from './bw.jpeg'
+
 
 function App() {
 
   return (
     <div className="max-w-6xl bg-white  container mx-auto p-2">
       <div className='flex justify-center items-center'>
-       {/*  <div><UserIcon className='w-48'/> </div> */}
-        <div>
-        <h1 className='text-5xl text-blue-400'>Cristian Antonio Dominguez Graciano</h1>
-        <p className='text-2xl text-gray-500'>Lic. En Sistemas Computacionales Administrativos (Desarrollador Web)</p>
+        {/*  <div><UserIcon className='w-48'/> </div> */}
+        <div className='flex justify-evenly items-center w-full'>
+          <div>
+            <img src={Yo} alt="" className=' h-48 rounded-xl' />
+          </div>
+          <div>
+            <h1 className='text-5xl text-blue-400'>Cristian Antonio Dominguez Graciano</h1>
+            <p className='text-2xl text-gray-500'>Lic. En Sistemas Computacionales Administrativos (Desarrollador Web)</p>
+          </div>
         </div>
       </div>
-      <div className="flex p-10">
+      <div className="flex p-4">
         <div className=" w-2/5 h-full">
           <div className="bg-gray-200 rounded-xl p-10 mb-5">
             <h2 className="text-2xl mb-2  text-blue-400">Habilidades</h2>
             <div className='mb-4'>
               <h3 className="font-semibold text-gray-800 mb-2">Idioma</h3>
               <div className="grid grid-cols-2 ">
-                <div>Español</div><Progress wd='w-full'/>
-                <div>Ingles (B2)</div><Progress wd='w-20'/>
+                <div>Español</div><Progress wd='w-full' />
+                <div>Ingles (B2)</div><Progress wd='w-20' />
               </div>
             </div>
-            <div  className='mb-4'>
+            <div className='mb-4'>
               <h3 className="font-semibold text-gray-800 mb-2">Desarrollo Web</h3>
               <div className="grid grid-cols-2">
-                <div className="text-gray-800 ">HTML y CSS</div><Progress wd='w-36'/>
-                <div className="text-gray-800 ">Javascript</div><Progress wd='w-24'/>
-                <div className="text-gray-800 ">Node Js</div><Progress wd='w-16'/>
-                <div className="text-gray-800 ">React Js</div><Progress wd='w-28'/>
-                <div className="text-gray-800 ">Php</div><Progress wd='w-20'/>
-                <div className="text-gray-800 ">Tailwind</div><Progress wd='w-28'/>
-                <div className="text-gray-800 ">API / WebServices</div><Progress wd='w-16'/>
+                <div className="text-gray-800 ">HTML y CSS</div><Progress wd='w-36' />
+                <div className="text-gray-800 ">Javascript</div><Progress wd='w-24' />
+                <div className="text-gray-800 ">Node Js</div><Progress wd='w-16' />
+                <div className="text-gray-800 ">React Js</div><Progress wd='w-28' />
+                <div className="text-gray-800 ">Php</div><Progress wd='w-20' />
+                <div className="text-gray-800 ">Tailwind</div><Progress wd='w-28' />
+                <div className="text-gray-800 ">API / WebServices</div><Progress wd='w-16' />
               </div>
             </div>
-            <div  className='mb-4'>
+            <div className='mb-4'>
               <h3 className="font-semibold text-gray-800 mb-2">Desarrollo de escritorio</h3>
               <div className="grid grid-cols-2">
-                <div>Java</div><Progress wd='w-14'/>
-                <div>C#</div><Progress wd='w-8'/>
-                <div>Python</div><Progress wd='w-8'/>
+                <div>Java</div><Progress wd='w-14' />
+                <div>C#</div><Progress wd='w-8' />
+                <div>Python</div><Progress wd='w-8' />
               </div>
             </div>
-            <div  className='mb-4'>
+            <div className='mb-4'>
               <h3 className="font-semibold text-gray-800 mb-2 ">Otros</h3>
               <div className="grid grid-cols-2">
-                <div>Mysql</div><Progress wd='w-20'/>
-                <div>Git / Github</div><Progress wd='w-16'/>
-                <div>NPM</div><Progress wd='w-16'/>
+                <div>Mysql</div><Progress wd='w-20' />
+                <div>Git / Github</div><Progress wd='w-16' />
+                <div>NPM</div><Progress wd='w-16' />
               </div>
             </div>
           </div>
