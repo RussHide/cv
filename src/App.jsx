@@ -10,7 +10,7 @@ function App() {
        {/*  <div><UserIcon className='w-48'/> </div> */}
         <div>
         <h1 className='text-5xl text-blue-400'>Cristian Antonio Dominguez Graciano</h1>
-        <p className='text-2xl text-gray-500'>Lic. En Sistemas Computacionales Admnistrativos (Desarrollador Web)</p>
+        <p className='text-2xl text-gray-500'>Lic. En Sistemas Computacionales Administrativos (Desarrollador Web)</p>
         </div>
       </div>
       <div className="flex p-10">
@@ -29,27 +29,27 @@ function App() {
               <div className="grid grid-cols-2">
                 <div className="text-gray-800 ">HTML y CSS</div><Progress wd='w-36'/>
                 <div className="text-gray-800 ">Javascript</div><Progress wd='w-24'/>
-                <div className="text-gray-800 ">Node Js</div><Progress wd='w-20'/>
-                <div className="text-gray-800 ">React Js</div><Progress wd='w-32'/>
+                <div className="text-gray-800 ">Node Js</div><Progress wd='w-16'/>
+                <div className="text-gray-800 ">React Js</div><Progress wd='w-28'/>
                 <div className="text-gray-800 ">Php</div><Progress wd='w-20'/>
                 <div className="text-gray-800 ">Tailwind</div><Progress wd='w-28'/>
-                <div className="text-gray-800 ">API / WebServices</div><Progress wd='w-28'/>
+                <div className="text-gray-800 ">API / WebServices</div><Progress wd='w-16'/>
               </div>
             </div>
             <div  className='mb-4'>
               <h3 className="font-semibold text-gray-800 mb-2">Desarrollo de escritorio</h3>
               <div className="grid grid-cols-2">
-                <div>Java</div><Progress wd='w-24'/>
-                <div>C#</div><Progress wd='w-16'/>
+                <div>Java</div><Progress wd='w-14'/>
+                <div>C#</div><Progress wd='w-8'/>
                 <div>Python</div><Progress wd='w-8'/>
               </div>
             </div>
             <div  className='mb-4'>
               <h3 className="font-semibold text-gray-800 mb-2 ">Otros</h3>
               <div className="grid grid-cols-2">
-                <div>Mysql</div><Progress wd='w-28'/>
-                <div>Git / Github</div><Progress wd='w-20'/>
-                <div>NPM</div><Progress wd='w-28'/>
+                <div>Mysql</div><Progress wd='w-20'/>
+                <div>Git / Github</div><Progress wd='w-16'/>
+                <div>NPM</div><Progress wd='w-16'/>
               </div>
             </div>
           </div>
