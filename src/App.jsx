@@ -63,11 +63,11 @@ function App() {
           <div className="bg-gray-200 rounded-xl p-10 mt-5">
             <h2 className="text-2xl mb-2 text-blue-400">Contacto</h2>
             <div className="">
-              <p className='flex'><BuildingOfficeIcon className='w-5 h-5 mr-2' />Torreon, Coahuila</p>
+              <p className='flex'><BuildingOfficeIcon className='w-5 h-5 mr-2' />Torreón, Coahuila, Col. Villa california Calle Girasol</p>
               <p className='flex'><PhoneIcon className='w-5 h-5 mr-2' />+52 872-139-8407</p>
               <p className='flex'><AtSymbolIcon className='w-5 h-5 mr-2' />graadev@gmail.com</p>
               <p className='flex'><ArchiveBoxIcon className='w-5 h-5 mr-2' />https://github.com/RussHide</p>
-              <p className='flex'><GlobeAmericasIcon className='w-5 h-5 mr-2' /> dominguez.netlify.app</p>
+              <p className='flex'><GlobeAmericasIcon className='w-5 h-5 mr-2' /> dominguez.netlify.app (2020)</p>
             </div>
           </div>
         </div>
@@ -87,14 +87,14 @@ function App() {
               <div className='font-semibold col-span-1'>2022 - Presente</div>
               <div className='font-semibold col-span-2'>UAdeC</div>
               <div className=''></div>
-              <div className='col-span-2'>Mantenimiento, Torreon
+              <div className='col-span-2'>Mantenimiento, Torreón
                 Como servicio social, hice un sistema de asistencia para mi facultad, contantemente se esta actualizando y es usado por los docentes de la misma</div>
             </div>
             <div className="grid grid-cols-3 mb-6">
               <div className='font-semibold col-span-1'>2022 - Presente</div>
               <div className='font-semibold col-span-2'>Instructor Particular</div>
               <div></div>
-              <div className='col-span-2'>Instructor, Torreon
+              <div className='col-span-2'>Instructor, Torreón
                 Aunque no es un trabajo pagado, doy clases
                 de programacion basica a una pequeña
                 cantidad de personas</div>
@@ -103,7 +103,7 @@ function App() {
               <div className='font-semibold col-span-1'>2021 - Presente</div>
               <div className='font-semibold col-span-2'>Fersi de la laguna</div>
               <div></div>
-              <div className=' col-span-2'>Desarrollo, Torreon
+              <div className=' col-span-2'>Desarrollo, Torreón
                 Participe en el desarrollo de un sistema de inventario para la empresa fersi en el lenguaje Java</div>
             </div>
           </div>
@@ -113,7 +113,7 @@ function App() {
               <div className='font-semibold col-span-1'> 2019 - Presente</div>
               <div className='font-semibold col-span-2'>UAdeC</div>
               <div></div>
-              <div className='col-span-2'>Estudiante, Torreon
+              <div className='col-span-2'>Estudiante, Torreón
                 Actualmente cursando el octavo semestre
                 de licenciatura</div>
             </div>
@@ -121,7 +121,7 @@ function App() {
               <div className='font-semibold col-span-1'>2019 - Presente</div>
               <div className='font-semibold col-span-2'>Udemy / Platzi</div>
               <div></div>
-              <div className='col-span-2'>Estudiante, Torreon
+              <div className='col-span-2'>Estudiante, Torreón
                 Estudio autodidacta de tecnologias web</div>
             </div>
           </div>
